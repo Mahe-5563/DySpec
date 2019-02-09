@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidthings.doorbell.MainActivity">
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/doorbellView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/common_full_open_on_phone"
+        android:id="@+id/imageViewOCRIMAGE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textOCR"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Hello world"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/imageViewOCRIMAGE"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
